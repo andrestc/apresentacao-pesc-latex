@@ -1,0 +1,72 @@
+\documentclass{beamer}
+
+\usetheme{default}
+\usepackage[utf8]{inputenc}
+
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{frametitle}[default][center]
+
+
+\usebackgroundtemplate
+{
+
+    \begin{picture}(100,205)(-15,-225)
+    \includegraphics[width=0.07\paperwidth,keepaspectratio]{imgs/pesc-3.png}
+    \end{picture}
+
+    \begin{picture}(100,275)(105,0)
+    \includegraphics[width=0.4\paperwidth,keepaspectratio]{imgs/pesc-2.png}
+    \end{picture}
+}
+
+\title{Título da Apresentação}
+\author{Autor da Apresentação}
+\date{29 de Novembro, 2016}
+
+\institute
+{
+  Universidade Federal do Rio de Janeiro\\
+  UFRJ/COPPE/PESC
+}
+
+
+% Let's get started
+\begin{document}
+
+{
+\usebackgroundtemplate{
+    \begin{picture}(100,205)(-10,-215)
+    \includegraphics[width=0.3\paperwidth,keepaspectratio]{imgs/pesc.png}
+    \end{picture}
+
+    \begin{picture}(100,275)(105,0)
+    \includegraphics[width=0.4\paperwidth,keepaspectratio]{imgs/pesc-2.png}
+    \end{picture}
+}
+\begin{frame}
+  \bigskip\bigskip\bigskip\bigskip
+  \titlepage
+\end{frame}
+}
+
+\begin{frame}{Agenda}
+  \tableofcontents
+\end{frame}
+
+\section{Introdução}
+
+\begin{frame}{Introdução}
+  \begin{itemize}
+  \item {
+    Primeiro topico.
+    \pause
+  }
+  \item {
+    Segundo topico.
+  }
+  \end{itemize}
+\end{frame}
+
+
+
+\end{document}
